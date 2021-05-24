@@ -114,6 +114,7 @@ export default {
     localStorage.setItem("keranjangUser", parsed);
     window.location.reload();
     },
+    
   },
   mounted() {
     if (localStorage.getItem("keranjangUser")) {
